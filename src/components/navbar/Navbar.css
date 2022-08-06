@@ -14,12 +14,18 @@
 }
 
 .nav-menu-item {
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  transition: all 0.5s ease;
 }
 
 .nav-menu-item a {
   font-size: 1.2rem;
   font-weight: 500;
+}
+
+.nav-menu-item:hover {
+  background: #2695ef6f;
 }
 
 .hamburger {
@@ -39,11 +45,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 50vh;
+    top: 0;
     left: -100%;
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    padding-top: 4rem;
     transition: all 0.3s;
     z-index: -1;
     background: rgba(0, 0, 0, 0.9);
