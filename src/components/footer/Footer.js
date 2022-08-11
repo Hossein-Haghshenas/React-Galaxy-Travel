@@ -36,9 +36,9 @@ const Footer = () => {
           <h4>About the company</h4>
           <p>
             " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
-            officia, esse perspiciatis possimus optio consequatur, pariatur
-            obcaecati harum quidem explicabo sapiente veniam repellat. "
+            officia, esse perspiciatis possimus optio consequatur. "
           </p>
+          <p>Created by hossein Developer</p>
           <section className="social">
             <FaFacebook className="footer-icons" size={30} />
             <FaTwitter className="footer-icons" size={30} />

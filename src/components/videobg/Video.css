@@ -30,7 +30,7 @@
   font-size: 1.8rem;
   font-weight: 200;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
+  margin: 2rem 0;
   color: #fff;
 }
 
@@ -39,10 +39,10 @@
 }
 
 @media screen and (max-width: 640px) {
-  .content h1 {
-    font-size: 3rem;
+  .hero .content h1 {
+    font-size: 2rem;
   }
-  .content p {
+  .hero .content p {
     font-size: 1.4rem;
     margin-bottom: 1.6rem;
   }

@@ -1,6 +1,6 @@
 .hero-img {
   background: rgba(0, 0, 0, 0.3);
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   position: relative;
 }
@@ -28,11 +28,15 @@
 }
 
 .hero-img p {
-  font-size: 1.4rem;
+  margin-top: 0.8rem;
+  font-size: 1.3rem;
 }
 
 @media screen and (max-width: 640px) {
   .hero-img h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .hero-img p {
+    font-size: 1.1rem;
   }
 }
