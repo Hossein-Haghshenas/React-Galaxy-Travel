@@ -6,8 +6,17 @@ import "./Navbar.css";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+
+  const [color, setColor] = useState(false);
+
+  const changeColor = () => {
+    window.scrollY >= 100 ? setColor(true) : setColor(false);
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <header className="header">
+    <header className={`header ${color ? "header-bg" : null}`}>
       <Link to={"/"}>
         <h1>GLX TRVL</h1>
       </Link>
